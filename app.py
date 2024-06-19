@@ -18,7 +18,7 @@ def main():
         return
 
     st.success("Data loaded successfully.")
-    st.write("User Data Sample:")
+    st.write("User Data Sample:",user_dat.head())
     st.write("Product Data Sample:", product_data.head())
     st.write("Merged Data Sample:", merged_data.head())
 
