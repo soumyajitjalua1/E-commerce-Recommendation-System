@@ -4,9 +4,9 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 def load_and_preprocess_data():
     try:
         # Load datasets
-        user_data = pd.read_csv(r'C:\Users\soumy\LLM\GenAi Project\recomedation_project\data\user_data.csv')
-        product_data = pd.read_csv(r'C:\Users\soumy\LLM\GenAi Project\recomedation_project\data\products.csv')
-        interaction_data = pd.read_csv(r'C:\Users\soumy\LLM\GenAi Project\recomedation_project\data\interaction.csv')
+        user_data = pd.read_csv(r'user_data.csv')
+        product_data = pd.read_csv(r'products.csv')
+        interaction_data = pd.read_csv(r'interaction.csv')
         print("Data loaded successfully.")
     except FileNotFoundError as e:
         print(f"Error: {e.strerror} - {e.filename}")
