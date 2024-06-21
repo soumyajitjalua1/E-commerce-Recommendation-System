@@ -67,4 +67,4 @@ This module combines collaborative filtering and content-based filtering to prov
     https://e-commerce-recommendation-system-7v6ow6ztxxbhkcxmmd4kzz.streamlit.app/
 
 ### 8.  License
-  This project is licensed under the MIT License - see the LICENSE file for details.
+  This project is licensed under the MIT License - see the LICENSE file for details.See the [LICENSE](https://github.com/soumyajitjalua1/E-commerce-Recommendation-System/blob/main/Licence) file for details
