@@ -5,18 +5,16 @@ This repository contains the code for an E-commerce Recommendation System built 
 ## Project Structure
 
 ecommerce_recommendation/
-│
-├── app.py # Main Streamlit app
-├── data_preprocessing.py # Data loading and preprocessing
-├── collaborative_filtering.py # Collaborative filtering model
-├── content_based_filtering.py # Content-based filtering functions
-├── hybrid_recommendation.py # Hybrid recommendation system
-├── requirements.txt # List of required packages
-├── data/
-│ ├── user_data.csv # User data file
-│ ├── products.csv # Product data file
-│ └── interaction.csv # User-product interaction data file
-
+- ├── app.py     # Main Streamlit app
+- ├── data_preprocessing.py 
+- ├── collaborative_filtering.py 
+- ├── content_based_filtering.py 
+- ├── hybrid_recommendation.py 
+- ├── requirements.txt 
+- ├── data/
+   - ├── user_data.csv 
+   - ├── products.csv
+   - ├── interaction.csv 
 
 ### `app.py`
 
@@ -65,5 +63,8 @@ This module combines collaborative filtering and content-based filtering to prov
   3. Enter a user ID and product ID to get recommendations.
   4. View the recommended products based on the hybrid recommendation system.
 
-### 7.  License
+### 7. App link
+    https://e-commerce-recommendation-system-7v6ow6ztxxbhkcxmmd4kzz.streamlit.app/
+
+### 8.  License
   This project is licensed under the MIT License - see the LICENSE file for details.
